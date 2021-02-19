@@ -1,0 +1,34 @@
+{
+  "name": "react-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open chrome --port 3000 --hot --host 127.0.0.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-standalone": "^6.26.0",
+    "bable-loader": "0.0.1-security",
+    "html-webpack-plugin": "^4.5.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router": "^5.2.0",
+    "todomvc-app-css": "^2.0.0",
+    "todomvc-common": "^1.0.0",
+    "webpack": "^5.10.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "keywords": [],
+  "description": ""
+}
